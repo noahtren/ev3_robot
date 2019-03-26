@@ -2,6 +2,11 @@
 from control import *
 
 if __name__ == "__main__":
+    '''
+    x and r are modifiable values
+    x stores the distance traveled forwards in centimeters
+    r stores the number of degrees to turn. Positive is CW, negative is CCW
+    '''
     x = [20, 20, 20, "5", 20, 40]
     r = [90, -90, None, -90, -90, 180]
     fi = open("stuff.txt", "w")
